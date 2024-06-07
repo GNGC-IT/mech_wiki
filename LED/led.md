@@ -2,7 +2,7 @@
 
 LED stands for Light Emitting Diode, and they are the most common type of light, and probably the most basic output for an electronic system.
 
-![led.png](led.png)
+![led.png](Images/led.png)
 
 ## Wiring
 
@@ -15,7 +15,7 @@ When wiring up an LED there are a few elements to note:
     - The shorter led is the cathode, and should be connected to ground
     - The Anode side has a notch in the circle of the LEDs head
         
-![led wiring'.png](led_wiring.png)
+![led wiring'.png](Images/led_wiring.png)
         
 
 ## Code
@@ -26,7 +26,7 @@ When wiring up an LED there are a few elements to note:
 int led = 2;
 
 // the setup function runs once when you press reset or power the board
-void setup() {  // initialize digital pin 13 as an output.
+void setup() {  // initialize the led's pin as an output.
    pinMode(led, OUTPUT);
 }
 
