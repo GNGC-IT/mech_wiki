@@ -22,7 +22,7 @@ When wiring up a button there are a few elements to note:
 
 **Basic Check** - If the button is held in, the arduino's inbuilt LED will turn on (Pin 13)
 
-```c
+```c++
 int button = 2;
 
 // the setup function runs once when you press reset or power the board
@@ -44,7 +44,7 @@ void loop() {
 
 **Toggle LED** - If the button is pressed, it will toggle the state of the inbuilt LED.
 
-```c
+```c++
 int button = 2;
 bool ledState = false;
 
