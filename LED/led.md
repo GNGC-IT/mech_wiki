@@ -22,7 +22,7 @@ When wiring up an LED there are a few elements to note:
 
 **Blink** - turns on an LED on for one second, then off for one second, repeatedly.
 
-```arduino
+```c
 int led = 2;
 
 // the setup function runs once when you press reset or power the board
