@@ -2,7 +2,7 @@
 
 LED stands for Light Emitting Diode, and they are the most common type of light, and probably the most basic output for an electronic system.
 
-![led.png]
+![led.png](led.png)
 
 ## Wiring
 
@@ -15,7 +15,7 @@ When wiring up an LED there are a few elements to note:
     - The shorter led is the cathode, and should be connected to ground
     - The Anode side has a notch in the circle of the LEDs head
         
-![led wiring'.png]
+![led wiring'.png](led_wiring.png)
         
 
 ## Code
