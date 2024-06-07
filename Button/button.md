@@ -28,6 +28,7 @@ int button = 2;
 // the setup function runs once when you press reset or power the board
 void setup() {  // initialize digital pin 13 as an input.
   pinMode(button, INPUT);
+  pinMode(13, OUTPUT);
 }
 
 // the loop function runs over and over again forever
@@ -51,6 +52,7 @@ bool ledState = false;
 // the setup function runs once when you press reset or power the board
 void setup() {  // initialize digital pin 13 as an output.
   pinMode(button, INPUT);
+  pinMode(13, OUTPUT);
 }
 
 // the loop function runs over and over again forever
